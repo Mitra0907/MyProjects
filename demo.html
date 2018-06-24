@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Student's Data</title>
+    <style>
+        #container {
+            width: 100%;
+            height: 100%;
+            background-image: url(student.jpg);
+        }
+        
+        .table1 {
+            border: "1px";
+            width: "600px";
+            height: "400px";
+            margin-top: 10%;
+        }
+    </style>
+    
+</head>
+
+
+<body>
+      <?php include 'demo.php'; ?>
+       
+        <form id="container" action="demo.php" method="POST">
+            <h1 align="center">"STUDENT REGISTRATION FORM!!!"</h1>
+            <marquee behavior="" direction="right">
+                <h2>Welcome</h2>
+            </marquee>
+
+            <center>
+                <table border="5px" width="600px" height="400px">
+                    <tr>
+                        <td colspan="4" align="right">FirstName:</td>
+                        <td align="center"><input type="text" name="fname" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" align="right">LastName:</td>
+                        <td align="center"><input type="text" name="lname" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" align="right"> RollNo:</td>
+                        <td align="center"><input type="text" name="roll" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" align="right">Marks:</td>
+                        <td align="center"><input type="text" name="marks" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="400" align="center"> <input type="submit" name="submit" value="submit" /></td>
+                    </tr>
+                </table>
+            </center>
+    </form>
+</body>
+
+</html>
